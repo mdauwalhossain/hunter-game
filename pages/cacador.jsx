@@ -1,11 +1,6 @@
-import Head from 'next/head'
-
-export default function Home() {
+export default function Cacador() {
   return (
     <>
-      <Head>
-        <title>Caçador</title>
-      </Head>
     </>
   )
 }

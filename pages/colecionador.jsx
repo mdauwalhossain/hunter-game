@@ -1,11 +1,6 @@
-import Head from 'next/head'
-
-export default function Home() {
+export default function Colecionador() {
   return (
     <>
-      <Head>
-        <title>Colecionador</title>
-      </Head>
     </>
   )
 }
