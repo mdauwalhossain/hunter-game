@@ -20,10 +20,6 @@
     margin: 1rem 0 2rem;
 }
 
-.text b {
-    font-weight: 700;
-}
-
 .cac {
     display: flex;
     flex-direction: column;

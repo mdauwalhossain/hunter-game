@@ -1,0 +1,72 @@
+.caliber {
+    position: relative;
+}
+
+.container {
+    padding: 0;
+}
+
+.caliberTitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333333;
+    line-height: 1;
+    margin: 1rem 0 0;
+}
+
+.caliberText {
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #000;
+    margin: 1rem 0 2rem;
+    padding: 0 1.5rem;
+}
+
+.contact {
+    background: url("../../public/images/cartridges.jpg");
+    padding: 2rem 1.5rem 0;
+}
+
+@media(min-width: 780px) {
+    .caliber {
+        display: flex;
+        background: urL("../../public/images/background-caliber.jpg");
+    }
+
+    .container {
+        padding: 0 2rem;
+        display: flex;
+    }
+
+    .content {
+        padding: 2rem 2rem 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .caliberTitle {
+        text-align: left;
+        font-size: 2.4rem;
+        margin: 0;
+        color: #fff;
+    }
+
+    .caliberText {
+        text-align: left;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        margin: 2rem 0 0;
+        color: #fff;
+        padding: 0;
+    }
+
+    .contact {
+        background: none;
+        padding: 0;
+        width: 100%;
+        max-width: 500px;
+    }
+
+}
