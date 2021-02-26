@@ -45,6 +45,7 @@
 
 .sociais img {
     height: 60%;
+    filter: brightness(0%);
 }
 
 @media(min-width: 780px) {
@@ -66,7 +67,12 @@
         font-size: .9rem;
     }
 
-    .contact .address {
+    .number img {
+        margin-left: 4px;
+        margin-bottom: -1px;
+    }
+
+    .address {
         margin-bottom: .5rem;
     }
 
@@ -93,12 +99,13 @@
         width: 2.5rem;
     }
 
-    .sociais a:hover  {
-        background-color: #ffd900;
+    .sociais a:hover {
+        transition: .3s;
+        background-color: #222;
     }
 
     .sociais a:hover img {
-        height: 70%;
-        transition: .1s;
+        transition: .3s;
+        filter: brightness(100%);
     }
 }

@@ -26,11 +26,18 @@ export default function Footer() {
                         </a>
 
                         <a
+                            className={styles.number}
                             href="https://api.whatsapp.com/send?phone=5541988555153&text=Ol%C3%A1%2C%20entro%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
                             target="_blank"
                             title="Entre em contato pelo WhatsApp"
                         >
-                            (41) 9 8855-5153
+                            <span>(41) 9 8855-5153</span>
+                            <img
+                                src="/images/whatsapp.svg"
+                                alt="WhatsApp"
+                                width="14"
+                                height="14"
+                            />
                         </a>
                     </div>
 
