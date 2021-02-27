@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family: 'ByTheWay';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/By-the-way.woff) format('woff');
+}
 
 * {
     box-sizing: border-box;
