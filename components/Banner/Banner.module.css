@@ -59,7 +59,7 @@
 
 @media(min-width: 780px) {
     .banner {
-        background: url("../../public/images/background-banner.jpg") no-repeat top left #000;
+        background: url("../../public/images/background-banner.jpg") no-repeat center #000;
     }
 
     .content {
@@ -94,5 +94,11 @@
 
     .description {
         font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 1438px) {
+    .banner {
+        background-position: top left;
     }
 }

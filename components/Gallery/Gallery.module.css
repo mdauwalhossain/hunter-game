@@ -1,0 +1,79 @@
+.gallery {
+    padding: 3rem 0 2rem;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: #333333;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 600;
+    flex: 1;
+}
+
+.btn {
+    background: transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    height: 33px;
+    width: 90px;
+    border: 1px solid #dc2743;
+}
+
+.btn span {
+    font-size: 0.7rem;
+    margin-right: 4px;
+    color: #dc2743;
+}
+
+@media(min-width: 780px) {
+    .header {
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .title {
+        font-size: 2.4rem;
+    }
+
+    .btn {
+        height: 50px;
+        width: 180px;
+    }
+
+    .btn span {
+        font-size: 1.2rem;
+        margin-right: 6px;
+    }
+
+    .btn img {
+        height: 1.2rem !important;
+        width: 1.2rem !important;
+    }
+
+    .btn:hover {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        border-color: transparent;
+    }
+
+    .btn:hover span {
+        color: #fff;
+        transition: .3s;
+    }
+
+    .btn:hover img {
+        filter: brightness(0) invert(1);
+        transition: .3s;
+    }
+    
+}

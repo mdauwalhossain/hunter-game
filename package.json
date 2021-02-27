@@ -12,6 +12,7 @@
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-items-carousel": "^2.8.0",
     "react-text-mask": "^5.4.3"
   }
 }

@@ -1,6 +1,7 @@
 import Banner from "../components/Banner"
 import About from "../components/About"
 import Caliber from "../components/Caliber"
+import Gallery from "../components/Gallery"
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Banner />
             <About />
             <Caliber />
+            <Gallery />
         </main>
     )
 }
