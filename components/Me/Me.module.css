@@ -1,0 +1,86 @@
+.me {
+    display: flex;
+    flex-direction: column;
+}
+
+.me>div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: 1.5rem 0 0;
+}
+
+.title {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1;
+    color: #333333;
+    font-family: 'ByTheWay';
+    margin: 0;
+}
+
+.text {
+    font-size: .8rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: #303030;
+    margin: 1rem 0;
+}
+
+.subtitle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #F0D53B;
+    color: #000;
+    z-index: 2;
+    text-transform: capitalize;
+    font-size: .8rem;
+    font-family: 'ByTheWay';
+    padding: .7rem .7rem;
+    margin: 0;
+}
+
+.me img {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+@media(min-width: 780px) {
+    .me {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .me>div {
+        flex: 1;
+    }
+
+    .content {
+        padding: 2rem 3rem 0 0;
+    }
+
+    .title {
+        font-size: 2.8rem;
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        text-align: left;
+        margin: 0;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        left: -2rem;
+        right: inherit;
+        padding: 2rem;
+    }
+}

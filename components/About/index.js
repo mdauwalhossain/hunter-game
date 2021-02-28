@@ -6,9 +6,9 @@ export default function About() {
         <section className={styles.about}>
             <div className="container">
                 <div className={styles.container}>
-                    <h1 className={styles.title}>
+                    <h3 className={styles.title}>
                         O que é o Certificado de Registro?
-                    </h1>
+                    </h3>
 
                     <p className={styles.text}>
                         O Certificado de Registro(CR) é um documento obtido a partir de um cadastro junto ao Exército Brasileiro. Este certificado dá o direito ao cidadão de exercer atividades de caça, tiro desportivo e coleção de armas, ou seja, o certificado é <b>emitido nas categorias Caçador, Atirador e/ou Colecionador (CAC).</b>
@@ -29,7 +29,7 @@ export default function About() {
                                         src="/svgs/cacador.svg"
                                         alt="Caçador"
                                     />
-                                    <h2 className={styles.categoryTitle}>Caçador</h2>
+                                    <h4 className={styles.categoryTitle}>Caçador</h4>
                                 </div>
                             </Link>
 
@@ -39,7 +39,7 @@ export default function About() {
                                         src="/svgs/atirador.svg"
                                         alt="Atirador"
                                     />
-                                    <h2 className={styles.categoryTitle}>Atirador</h2>
+                                    <h4 className={styles.categoryTitle}>Atirador</h4>
                                 </div>
                             </Link>
 
@@ -49,7 +49,7 @@ export default function About() {
                                         src="/svgs/colecionador.svg"
                                         alt="Colecionador"
                                     />
-                                    <h2 className={styles.categoryTitle}>Colecionador</h2>
+                                    <h4 className={styles.categoryTitle}>Colecionador</h4>
                                 </div>
                             </Link>
                         </div>

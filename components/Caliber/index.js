@@ -7,9 +7,9 @@ export default function Caliber() {
             <div className={`${styles.container} container`}>
 
                 <div className={styles.content}>
-                    <h3 className={styles.caliberTitle}>
+                    <h5 className={styles.caliberTitle}>
                         Qual calibre eu posso ter?
-                    </h3>
+                    </h5>
 
                     <p className={`${styles.caliberText} mobile-show`}>
                         O CR na categoria CAC permite que você atire com pistolas de <b>9mm, .40 e .45 e os revólveres 357.</b> Fale conosco e tire suas dúvidas,<b> realize seu sonho de atirar com diversos calibres!</b>

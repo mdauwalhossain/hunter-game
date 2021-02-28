@@ -6,7 +6,7 @@ import styles from './Gallery.module.css'
 
 export default function Gallery() {
     const [activeItemIndex, setActiveItemIndex] = useState(0)
-    const noOfItems = 7
+    const noOfItems = 10
     const noOfCards = 3
 
     useEffect(() => {
