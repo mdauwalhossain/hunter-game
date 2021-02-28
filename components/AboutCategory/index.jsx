@@ -24,7 +24,7 @@ export default function AboutCategory({ icon, title, text }) {
 
                     <h1 className={styles.title}>{title}</h1>
 
-                    <p className={styles.text}>{text}</p>
+                    <h2 className={styles.text}>{text}</h2>
 
                     <p className={styles.subtext}>
                         *Validade do CR é de 10 anos para os registros concedidos ou revalidados após a data da publicação do Decreto 9.846/19

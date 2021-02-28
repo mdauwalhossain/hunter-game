@@ -2,28 +2,11 @@ import { Formik, Field, ErrorMessage } from 'formik'
 import MaskedInput from "react-text-mask"
 import styles from './Contact.module.css'
 
-const phoneNumberMask = [
-    "(",
-    /\d/,
-    /\d/,
-    ")",
-    " ",
-    /\d/,
-    /\d/,
-    /\d/,
-    /\d/,
-    /\d/,
-    "-",
-    /\d/,
-    /\d/,
-    /\d/,
-    /\d/
-];
+const phoneNumberMask = ["(", /\d/, /\d/, ")", " ", /\d/, /\d/, /\d/, /\d/, /\d/, "-", /\d/, /\d/, /\d/, /\d/]
 
-export default function Contact() {
-
+export default function Contact(props) {
     return (
-        <div className={styles.contact}>
+        <div className={`${styles.contact} ${props?.className}`}>
             <span>Fale Conosco!</span>
 
             <Formik
