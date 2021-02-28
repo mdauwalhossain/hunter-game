@@ -15,7 +15,7 @@ export default function Gallery() {
         }, 2000)
 
         return () => clearInterval(interval)
-    }, [activeItemIndex])
+    }, [])
 
     const carouselItems = range(noOfItems).map(index => (
         <Image

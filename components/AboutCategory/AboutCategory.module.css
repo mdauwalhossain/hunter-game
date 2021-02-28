@@ -35,14 +35,13 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    transform: translate(50%, 25%);
+    transform: translate(50%, 15%);
 }
 
 .circle strong {
     font-family: 'ByTheWay';
     font-size: 1.6rem;
     line-height: .8;
-    font-weight: 700;
 }
 
 .circle span {
@@ -60,7 +59,6 @@
     font-family: 'ByTheWay';
     font-size: 3rem;
     margin: 1rem 0;
-    letter-spacing: 2px;
 }
 
 .text {
@@ -101,7 +99,6 @@
 
     .title {
         font-size: 4rem;
-        letter-spacing: 0px;
     }
 
     .text {
