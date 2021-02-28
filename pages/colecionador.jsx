@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import AboutCategory from "../components/AboutCategory"
 import Queries from "../components/Queries"
 import Alert from "../components/Alert"
@@ -6,6 +7,10 @@ import ContactCategory from "../components/ContactCategory"
 export default function Colecionador() {
     return (
         <>
+            <Head>
+                <title>Colecionador | Jackeline Oczust - Despachante de Armas</title>
+            </Head>
+
             <AboutCategory
                 icon="colecionador"
                 title="Colecionador"
