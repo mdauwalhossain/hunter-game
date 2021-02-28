@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
                 <meta property="og:site_name" content="Jackeline Oczust - Despachante de Armas" />
                 <meta property="og:type" content="website" />
                 <meta property="og:description" content="Quer ter sua arma de forma legalizada e não sabe como? Fale Conosco!" />
-                <meta property="og:image" content="https://instagram.fbfh15-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.97.780.780a/s640x640/152354238_113686284064662_3826999676540091630_n.jpg?tp=1&_nc_ht=instagram.fbfh15-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=vt2kQmHr2fQAX84x_GX&oh=42e0ffd12253f8d8de10c0075d65030a&oe=60653A84"></meta>
+                <meta property="og:image" content="https://instagram.fbfh15-1.fna.fbcdn.net/v/t51.2885-15/e35/s480x480/146803916_2783099265284044_5103167293899035299_n.jpg?tp=1&_nc_ht=instagram.fbfh15-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=jQmFZANVT2UAX8pS0GW&oh=18f2b33e5b28502ec286d7fb5a109c06&oe=6064F9E5"></meta>
             </Head>
 
             <Header />
