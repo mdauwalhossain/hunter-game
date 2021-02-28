@@ -17,7 +17,7 @@ export default function About() {
                     <div className={styles.cac}>
                         <div className={styles.cr}>
                             <img
-                                src="/images/cr.svg"
+                                src="/svgs/cr.svg"
                                 alt="Certificado de Registro"
                             />
                         </div>
@@ -26,7 +26,7 @@ export default function About() {
                             <Link href="/cacador">
                                 <div className={styles.category} title="Caçador">
                                     <img
-                                        src="/images/cacador.svg"
+                                        src="/svgs/cacador.svg"
                                         alt="Caçador"
                                     />
                                     <h2 className={styles.categoryTitle}>Caçador</h2>
@@ -36,7 +36,7 @@ export default function About() {
                             <Link href="/atirador">
                                 <div className={styles.category} title="Atirador">
                                     <img
-                                        src="/images/atirador.svg"
+                                        src="/svgs/atirador.svg"
                                         alt="Atirador"
                                     />
                                     <h2 className={styles.categoryTitle}>Atirador</h2>
@@ -46,7 +46,7 @@ export default function About() {
                             <Link href="/colecionador">
                                 <div className={styles.category} title="Colecionador">
                                     <img
-                                        src="/images/colecionador.svg"
+                                        src="/svgs/colecionador.svg"
                                         alt="Colecionador"
                                     />
                                     <h2 className={styles.categoryTitle}>Colecionador</h2>

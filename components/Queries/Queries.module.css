@@ -1,0 +1,14 @@
+.queries {
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+@media(min-width: 780px) {
+    .queries {
+        margin: 3rem 0;
+    }
+}

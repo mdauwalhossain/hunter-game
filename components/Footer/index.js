@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className={styles.contact}>
                         <Link href="/">
                             <img
-                                src="/images/logo.svg"
+                                src="/svgs/logo.svg"
                                 alt="Logo Jackeline Oczust"
                                 title="Jackeline Oczust - Despachante de Armas"
                                 className={styles.logo}
@@ -33,7 +33,7 @@ export default function Footer() {
                         >
                             <span>(41) 9 8855-5153</span>
                             <img
-                                src="/images/whatsapp.svg"
+                                src="/svgs/whatsapp.svg"
                                 alt="WhatsApp"
                                 width="14"
                                 height="14"
@@ -65,7 +65,7 @@ export default function Footer() {
                             target="_blank"
                         >
                             <img
-                                src="/images/whatsapp.svg"
+                                src="/svgs/whatsapp.svg"
                                 alt="WhatsApp"
                                 title="Entre em contato pelo WhatsApp"
                             />
@@ -75,7 +75,7 @@ export default function Footer() {
                             target="_blank"
                         >
                             <img
-                                src="/images/facebook.svg"
+                                src="/svgs/facebook.svg"
                                 alt="Facebook"
                                 title="Entre em contato pelo Facebook"
                             />
@@ -85,7 +85,7 @@ export default function Footer() {
                             target="_blank"
                         >
                             <img
-                                src="/images/instagram.svg"
+                                src="/svgs/instagram.svg"
                                 alt="Instagram"
                                 title="Entre em contato pelo Instagram"
                             />

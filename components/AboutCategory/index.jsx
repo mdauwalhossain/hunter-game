@@ -9,7 +9,7 @@ export default function AboutCategory({ icon, title, text }) {
 
                     <div className={styles.icon}>
                         <Image
-                            src={`/images/${icon}.svg`}
+                            src={`/svgs/${icon}.svg`}
                             alt={title}
                             height={260}
                             width={260}

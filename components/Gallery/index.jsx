@@ -45,7 +45,7 @@ export default function Gallery() {
                         <span>Ver Mais</span>
 
                         <Image
-                            src="/images/instagram.svg"
+                            src="/svgs/instagram.svg"
                             alt="Instagram"
                             height={12}
                             width={12}

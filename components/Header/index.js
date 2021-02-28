@@ -21,7 +21,7 @@ export default function Header() {
 
                     <Link href="/">
                         <img
-                            src="/images/logo.svg"
+                            src="/svgs/logo.svg"
                             alt="Logo Jackeline Oczust"
                             title="Jackeline Oczust - Despachante de Armas"
                             className={styles.logo}
