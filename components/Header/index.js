@@ -1,13 +1,15 @@
 import { useState } from 'react'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import MenuItem from '../MenuItem'
 import styles from './Header.module.css'
 
 export default function Header() {
+    const router = useRouter()
     const [menuIsOpen, setMenuIsOpen] = useState(false)
 
     return (
-        <header className={styles.header}>
+        <header className={router.pathname === '/' ? `${styles.header} ${styles.headerHome}` : styles.header}>
             <div className="container">
                 <div className={styles.container}>
                     <div
@@ -26,7 +28,7 @@ export default function Header() {
                         />
                     </Link>
 
-                    <nav className={`${styles.menu} ${!menuIsOpen ? styles.menuFechado : ''}`}>
+                    <nav className={`${styles.menu} ${!menuIsOpen ? styles.menuFechado : ''}`} onClick={() => setMenuIsOpen(false)}>
                         <MenuItem
                             route="/"
                             active={styles.active}

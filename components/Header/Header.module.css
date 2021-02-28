@@ -1,6 +1,7 @@
 .header {
     background-color: #010304;
     position: relative;
+    z-index: 2;
 }
 
 .container {
@@ -64,6 +65,7 @@
     transform: translate(0, 100%);
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 5px 10px -5px rgb(255 255 255 / 30%);
 }
 
 .menu span {
@@ -96,12 +98,13 @@
 }
 
 @media(min-width: 780px) {
-    .header {
+    .headerHome {
         background-color: transparent;
         position: absolute;
         width: 100%;
         left: 0;
         top: 0;
+        z-index: 0;
     }
     
     .container {
@@ -123,6 +126,7 @@
         flex-direction: row;
         gap: 0 2rem;
         background: transparent;
+        box-shadow: none;
     }
 
     .menu span {

@@ -1,0 +1,114 @@
+.about {
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon img {
+    filter: brightness(0) invert(1);
+    height: 120px;
+}
+
+.circle {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    background-color: #F0D53B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 25%);
+}
+
+.circle strong {
+    font-family: 'ByTheWay';
+    font-size: 1.6rem;
+    line-height: .8;
+    font-weight: 700;
+}
+
+.circle span {
+    font-size: .9rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.circle small {
+    font-size: 0.6rem;
+    line-height: 1;
+}
+
+.title {
+    font-family: 'ByTheWay';
+    font-size: 3rem;
+    margin: 1rem 0;
+    letter-spacing: 2px;
+}
+
+.text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #B2B2B2;
+    margin-top: 0.5rem;
+}
+
+@media(min-width: 780px) {
+    .icon img {
+        height: 260px;
+    }
+
+    .circle {
+        height: 100px;
+        width: 100px;
+        transform: translate(25%, 0%);
+    }
+
+    .circle strong {
+        font-size: 2.5rem;
+    }
+
+    .circle span {
+        font-size: 1.3rem;
+    }
+
+    .circle small {
+        font-size: .8rem;
+    }
+
+    .title {
+        font-size: 4rem;
+        letter-spacing: 0px;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .subtext {
+        font-size: 1.1rem;
+    }
+}
