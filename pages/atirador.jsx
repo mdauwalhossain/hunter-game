@@ -32,19 +32,41 @@ export default function Atirador() {
                     },
                     {
                         query: 'Quantas armas o Atirador pode ter em seu acervo?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempora omnis deserunt similique repellendus illum unde suscipit, quo consectetur vel a aut excepturi quidem cupiditate delectus provident odio ut voluptas.',
+                        answer: `<b>- 30 armas de uso permitido</b> <br />
+                        <b>- 30 armas uso restrito</b> <br />
+                        <br />
+                        A autorização para a aquisição está condicionado ao atendimento do prescrito nos art. 9º ao art. 12 da Portaria nº 136-COLOG/2019 e será formalizada pelo despacho da Organização Militar do SisFPC de vinculação do colecionador no requerimento Anexo E da Portaria. <br />
+                        <br />
+                        <a href="http://www.dfpc.eb.mil.br/index.php/aquisicao" target="_blank" style="color: blue">www.dfpc.eb.mil.br/index.php/aquisicao</a> 
+                        `,
                     },
                     {
                         query: 'Quantas munições o Atirador Deportivo pode adquirir?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempora omnis deserunt similique repellendus illum unde suscipit, quo consectetur vel a aut excepturi quidem cupiditate delectus provident odio ut voluptas.',
+                        answer: `O Atirador Deportivo poderá adquirir, anualmente, para cada arma registrada: <br />
+                        <br />
+                        <b>Munição de uso permitido: </b> até cinco mil cartuchos ou insumos para essa quantidade. <br />
+                        <b>Munição de uso restrito: </b> até mil cartuchos ou insumos para essa quantidade. <br />
+                        <br />
+                        A quantidade anual de pólvora é de até vinte quilogramas por pessoa registrada no Exécito.
+                        `,
                     },
                     {
-                        query: 'O que é necessário para adquirir munições e insumos?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempora omnis deserunt similique repellendus illum unde suscipit, quo consectetur vel a aut excepturi quidem cupiditate delectus provident odio ut voluptas.',
+                        query:
+                            "O que é necessário para adquirir munições e insumos?",
+                        answer:
+                            `Apresentação ao fornecedor: <br />
+                            <br />
+                            - Documento de identificação válido; <br />
+                            - CRAF da arma;<br />
+                            - CR de atirador desportivo ou caçador.`,
                     },
                     {
-                        query: 'Quais armas de fogo são proíbidas nesta categoria?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempora omnis deserunt similique repellendus illum unde suscipit, quo consectetur vel a aut excepturi quidem cupiditate delectus provident odio ut voluptas.',
+                        query:
+                            "Quais armas de fogo são proíbidas nesta categoria?",
+                        answer:
+                            `- Arma de fogo de uso proibido<br />
+                            - Arma de fogo automática <br />
+                            - Arma de fogo não-portátil`,
                     },
                 ]}
             />
