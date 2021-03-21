@@ -1,6 +1,8 @@
 import { Formik, Field, ErrorMessage } from 'formik'
 import MaskedInput from "react-text-mask"
-import styles from './Contact.module.css'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import styles from "./Contact.module.css"
 
 const phoneNumberMask = ["(", /\d/, /\d/, ")", " ", /\d/, /\d/, /\d/, /\d/, /\d/, "-", /\d/, /\d/, /\d/, /\d/]
 
@@ -42,16 +44,24 @@ export default function Contact(props) {
                     return errors
                 }}
                 onSubmit={(values, { setSubmitting, resetForm }) => {
-                    setTimeout(() => {
-                        alert(JSON.stringify(values, null, 2))
-                        setSubmitting(false)
-                        resetForm()
-                    }, 400);
+                    toast.warn(`Entraremos em contato em breve!`, {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    })
+
+                    setSubmitting(false)
+                    resetForm()
                 }}
             >
                 {({
                     handleSubmit,
                     isSubmitting,
+                    isValid
                 }) => (
                     <form className={styles.form} onSubmit={handleSubmit}>
                         <div className={styles.formGroup}>
@@ -86,12 +96,14 @@ export default function Contact(props) {
                             <ErrorMessage name="message" component="div" />
                         </div>
 
-                        <button type="submit" disabled={isSubmitting} title="Enviar">
+                        <button type="submit" disabled={isSubmitting} data-valid={isValid} title="Enviar">
                             {isSubmitting ? 'Enviando...' : 'Enviar'}
                         </button>
                     </form>
                 )}
             </Formik>
+
+            <ToastContainer />
         </div>
     )
 }
