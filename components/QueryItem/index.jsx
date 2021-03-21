@@ -2,8 +2,8 @@ import { useState } from 'react'
 import Image from 'next/image'
 import styles from './QueryItem.module.css'
 
-export default function QueryItem({ query, answer }) {
-    const [open, setOpen] = useState(false)
+export default function QueryItem({ query, answer, initialOpen }) {
+    const [open, setOpen] = useState(initialOpen)
 
     return (
         <div className={styles.query}>

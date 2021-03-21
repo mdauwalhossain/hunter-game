@@ -1,5 +1,5 @@
-import QueryItem from '../QueryItem'
-import styles from './Queries.module.css'
+import QueryItem from "../QueryItem";
+import styles from "./Queries.module.css";
 
 export default function Queries({ data }) {
     return (
@@ -10,9 +10,10 @@ export default function Queries({ data }) {
                         key={index}
                         query={item.query}
                         answer={item.answer}
+                        initialOpen={index === 0}
                     />
                 ))}
             </section>
         </div>
-    )
+    );
 }
