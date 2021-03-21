@@ -44,7 +44,7 @@ export default function Contact(props) {
                     return errors
                 }}
                 onSubmit={(values, { setSubmitting, resetForm }) => {
-                    toast.warn(`Entraremos em contato em breve!`, {
+                    const toastOptions = {
                         position: "top-right",
                         autoClose: 5000,
                         hideProgressBar: false,
@@ -52,10 +52,28 @@ export default function Contact(props) {
                         pauseOnHover: true,
                         draggable: true,
                         progress: undefined,
-                    })
+                    }
 
-                    setSubmitting(false)
-                    resetForm()
+                    fetch("api/smtp", {
+                        method: "POST",
+                        headers: {
+                            Accept: "application/json, text/plain, */*",
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify(values),
+                    }).then((res) => {
+                        if (res.status === 200) {
+                            toast.success(`Entraremos em contato em breve!`, toastOptions)
+                            setSubmitting(false)
+                            resetForm()
+                        } else {
+                            toast.error(`Infelizmente ocorreu um erro, tente novamente!`, toastOptions)
+                            setSubmitting(false)
+                        }
+                    }).catch((e) => {
+                        toast.error(`Infelizmente ocorreu um erro, tente novamente!`, toastOptions)
+                        setSubmitting(false)
+                    })
                 }}
             >
                 {({

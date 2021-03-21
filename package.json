@@ -10,6 +10,7 @@
   "dependencies": {
     "formik": "^2.2.6",
     "next": "10.0.6",
+    "nodemailer": "^6.5.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-items-carousel": "^2.8.0",
