@@ -4,9 +4,9 @@ const authEmail = process.env.EMAIL
 const authPass = process.env.EMAIL_PASS
 
 const transporter = nodemailer.createTransport({
-    host: "smtp-mail.outlook.com", // hostname
-    port: 587, // port for secure SMTP
-    secureConnection: false, // TLS requires secureConnection to be false
+    host: "smtp-mail.outlook.com",
+    port: 587,
+    secureConnection: false,
     tls: {
         ciphers: 'SSLv3'
     },
@@ -25,10 +25,10 @@ export default async (req, res) => {
     }
 
     const html = `<br />
-        <b>Nome: </b> ${name} <br />
-        <b>E-mail: </b> ${email} <br />
-        <b>Whatsapp: </b> ${whatsapp} <br />
-        <b>Mensagem: </b> ${message}`
+            <b>Nome: </b> ${name} <br />
+            <b>E-mail: </b> ${email} <br />
+            <b>Whatsapp: </b> ${whatsapp} <br />
+            <b>Mensagem: </b> ${message}`
 
     const options = {
         subject: `Site - Novo contato de ${name}`,
@@ -39,11 +39,15 @@ export default async (req, res) => {
 
     }
 
-    const mailerRes = await new Promise((resolve, reject) => {
-        transporter.sendMail(options, (error, info) =>
-            error ? reject(error) : resolve(info)
-        )
+    transporter.sendMail(options, (error, info) => {
+        if (error) {
+            res.status(403).send({
+                error,
+                email: process.env.EMAIL,
+                pass: process.env.EMAIL_PASS,
+            })
+        } else {
+            res.send(info)
+        }
     })
-
-    res.send(mailerRes)
 }
