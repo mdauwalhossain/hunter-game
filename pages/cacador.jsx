@@ -9,6 +9,9 @@ export default function Cacador() {
         <>
             <Head>
                 <title>Caçador | Jackeline Oczust - Despachante de Armas</title>
+                <meta property="og:title" content="Caçador | Jackeline Oczust - Despachante de Armas" />
+                <meta name="description" content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!" />
+                <meta property="og:description" content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!" />
             </Head>
 
             <AboutCategory

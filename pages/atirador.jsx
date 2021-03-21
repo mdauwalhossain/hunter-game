@@ -9,6 +9,8 @@ export default function Atirador() {
         <>
             <Head>
                 <title>Atirador | Jackeline Oczust - Despachante de Armas</title>
+                <meta name="description" content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!" />
+                <meta property="og:description" content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!" />
             </Head>
 
             <AboutCategory
