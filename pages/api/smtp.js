@@ -6,10 +6,7 @@ const authPass = process.env.EMAIL_PASS
 const transporter = nodemailer.createTransport({
     host: "smtp-mail.outlook.com",
     port: 587,
-    secureConnection: false,
-    tls: {
-        ciphers: 'SSLv3'
-    },
+    secureConnection: true,
     auth: {
         user: authEmail,
         pass: authPass
@@ -41,11 +38,7 @@ export default async (req, res) => {
 
     transporter.sendMail(options, (error, info) => {
         if (error) {
-            res.status(403).send({
-                error,
-                email: process.env.EMAIL,
-                pass: process.env.EMAIL_PASS,
-            })
+            res.status(403).send(error)
         } else {
             res.send(info)
         }
