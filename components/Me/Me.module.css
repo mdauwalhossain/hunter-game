@@ -14,7 +14,7 @@
 }
 
 .title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
     line-height: 1;
     color: #333333;
@@ -23,8 +23,8 @@
 }
 
 .text {
-    font-size: .8rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.8;
     text-align: justify;
     color: #303030;
     margin: 1rem 0;
@@ -38,7 +38,7 @@
     color: #000;
     z-index: 2;
     text-transform: capitalize;
-    font-size: .8rem;
+    font-size: 1rem;
     font-family: 'ByTheWay';
     padding: .7rem .7rem;
     margin: 0;

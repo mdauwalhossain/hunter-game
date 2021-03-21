@@ -11,8 +11,8 @@
 }
 
 .title {
-    color: #FFF;
-    font-family: 'ByTheWay';
+    color: #fff;
+    font-family: "ByTheWay";
     font-size: 2rem;
     line-height: 1;
 }
@@ -27,7 +27,7 @@
 }
 
 .title div {
-    color: #F0D53B;
+    color: #f0d53b;
     margin: 0 5px;
 }
 
@@ -44,13 +44,19 @@
     max-width: 180px;
     outline: 0;
     border-radius: 4px;
-    background: #F0D53B;
+    background: #f0d53b;
     color: #000;
-    font-size: 0.8rem;
-    padding: 1rem .5rem;
-    margin: 2rem 0 1rem;
+    font-size: 0.9rem;
+    padding: 1rem 0.5rem;
+    margin: 1rem 0;
     border: none;
     text-align: center;
+}
+
+.btn img {
+    margin: 0px 0 -2px 5px;
+    filter: brightness(0);
+    opacity: 0.8;
 }
 
 .description {
@@ -58,9 +64,10 @@
     color: #fff;
 }
 
-@media(min-width: 780px) {
+@media (min-width: 780px) {
     .banner {
-        background: url("../../public/images/background-banner.jpg") no-repeat center #000;
+        background: url("../../public/images/background-banner.jpg") no-repeat
+            center #000;
     }
 
     .content {
@@ -88,9 +95,13 @@
 
     .btn:hover {
         background-color: transparent;
-        color: #F0D53B;
-        border-color: #F0D53B;
+        color: #f0d53b;
+        border-color: #f0d53b;
         background-color: #f0ce2314;
+    }
+
+    .btn:hover img {
+        filter: inherit;
     }
 
     .description {
@@ -98,7 +109,7 @@
     }
 }
 
-@media(min-width: 1438px) {
+@media (min-width: 1438px) {
     .banner {
         background-position: top left;
     }
