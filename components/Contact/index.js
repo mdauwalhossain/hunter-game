@@ -96,7 +96,7 @@ export default function Contact(props) {
                             <ErrorMessage name="message" component="div" />
                         </div>
 
-                        <button type="submit" disabled={isSubmitting} data-valid={isValid} title="Enviar">
+                        <button type="submit" disabled={isSubmitting} data-valid={isValid} title="Enviar" arial-label="Enviar Formulário">
                             {isSubmitting ? 'Enviando...' : 'Enviar'}
                         </button>
                     </form>

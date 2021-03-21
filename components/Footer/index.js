@@ -21,6 +21,7 @@ export default function Footer() {
                             href="https://goo.gl/maps/EsKPKk1yRLHwhrkBA"
                             target="_blank"
                             title="Localização"
+                            arial-label="Abrir google maps com o endereço"
                         >
                             Rua Doutor Armando Fajardo, 79 - Capão Raso
                         </a>
@@ -30,6 +31,7 @@ export default function Footer() {
                             href="https://api.whatsapp.com/send?phone=5541988555153&text=Ol%C3%A1%2C%20entro%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
                             target="_blank"
                             title="Entre em contato pelo WhatsApp"
+                            arial-label="Entrar em contato pelo whatsapp"
                         >
                             <span>(41) 9 8855-5153</span>
                             <img
@@ -63,6 +65,7 @@ export default function Footer() {
                         <a
                             href="https://wa.me/5541988555153?text=Ol%C3%A1%2C%20entro%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
                             target="_blank"
+                            arial-label="Entrar em contato pelo whatsapp"
                         >
                             <img
                                 src="/svgs/whatsapp.svg"
@@ -73,6 +76,7 @@ export default function Footer() {
                         <a
                             href="https://www.facebook.com/jackeline.oczust.9"
                             target="_blank"
+                            arial-label="Entrar em contato pelo Facebook"
                         >
                             <img
                                 src="/svgs/facebook.svg"
@@ -83,6 +87,7 @@ export default function Footer() {
                         <a
                             href="https://www.instagram.com/jackeoczust"
                             target="_blank"
+                            arial-label="Entrar em contato pelo Instagram"
                         >
                             <img
                                 src="/svgs/instagram.svg"

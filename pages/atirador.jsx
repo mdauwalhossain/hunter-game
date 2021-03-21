@@ -30,7 +30,7 @@ export default function Atirador() {
                         <br />
                         O requerimento e a relação de documentos para concessão de CR encontram0se no Anexo B da Portaria nº 150-CELOG, de 5 de dezembro de 2019. <br />
                         <br />
-                        <a href="http://www.dfpc.eb.mil.br/index.php/registro" target="_blank" style="color: blue">www.dfpc.eb.mil.br/index.php/registro</a>`,
+                        <a href="http://www.dfpc.eb.mil.br/index.php/registro" target="_blank" style="color: blue" arial-label="Abrir site do dfpc">www.dfpc.eb.mil.br/index.php/registro</a>`,
                     },
                     {
                         query: 'Quantas armas o Atirador pode ter em seu acervo?',
@@ -39,7 +39,7 @@ export default function Atirador() {
                         <br />
                         A autorização para a aquisição está condicionado ao atendimento do prescrito nos art. 9º ao art. 12 da Portaria nº 136-COLOG/2019 e será formalizada pelo despacho da Organização Militar do SisFPC de vinculação do colecionador no requerimento Anexo E da Portaria. <br />
                         <br />
-                        <a href="http://www.dfpc.eb.mil.br/index.php/aquisicao" target="_blank" style="color: blue">www.dfpc.eb.mil.br/index.php/aquisicao</a> 
+                        <a href="http://www.dfpc.eb.mil.br/index.php/aquisicao" target="_blank" style="color: blue" arial-label="Abrir site do dfpc">www.dfpc.eb.mil.br/index.php/aquisicao</a> 
                         `,
                     },
                     {

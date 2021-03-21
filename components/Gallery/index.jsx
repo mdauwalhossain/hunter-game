@@ -41,6 +41,7 @@ export default function Gallery() {
                         className={styles.btn} href="https://www.instagram.com/jackeoczust"
                         target="_blank"
                         title="Ver Mais no Instagram"
+                        arial-label="Ver mais fotos no Instagram"
                     >
                         <span>Ver Mais</span>
 
