@@ -4,9 +4,12 @@ const authEmail = process.env.EMAIL
 const authPass = process.env.EMAIL_PASS
 
 const transporter = nodemailer.createTransport({
-    host: "smtp.office365.com",
+    ost: "smtp-mail.outlook.com",
+    secureConnection: false,
     port: 587,
-    secure: false,
+    tls: {
+        ciphers: 'SSLv3'
+    },
     auth: {
         user: authEmail,
         pass: authPass
@@ -24,7 +27,7 @@ export default async (req, res) => {
     const html = `<br />
             <b>Nome: </b> ${name} <br />
             <b>E-mail: </b> ${email} <br />
-            <b>Whatsapp: </b> ${whatsapp} <br />
+            <b>Whatsapp: </b> <a href="https://api.whatsapp.com/send?phone=55${whatsapp.replace(/[^0-9.]/g, '')}" target="_blank">${whatsapp}</a> <br />
             <b>Mensagem: </b> ${message}`
 
     const options = {
