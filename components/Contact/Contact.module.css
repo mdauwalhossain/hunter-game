@@ -82,7 +82,7 @@
 .form button {
     font-size: 0.8rem;
     color: #fff;
-    background-color: #010304;
+    background: #010304;
     width: 160px;
     padding: 0.8rem;
     border-radius: 4px;
@@ -91,11 +91,11 @@
     align-self: center;
     margin-top: 0.5rem;
     outline: 0;
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
 
 .form button:disabled {
-    background-color: #505050;
+    background: #505050;
     cursor: wait;
 }
 
