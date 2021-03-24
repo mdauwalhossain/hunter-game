@@ -71,7 +71,7 @@
 
 @media (min-width: 780px) {
     .banner {
-        background: url("../../public/images/background-banner.jpg") no-repeat
+        background: url("../../public/images/background-banner.webp") no-repeat
             center #000;
     }
 

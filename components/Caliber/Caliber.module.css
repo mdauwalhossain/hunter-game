@@ -24,14 +24,14 @@
 }
 
 .contact {
-    background: url("../../public/images/cartridges.jpg");
+    background: url("../../public/images/cartridges.webp");
     padding: 2rem 1.5rem 0;
 }
 
 @media(min-width: 780px) {
     .caliber {
         display: flex;
-        background: urL("../../public/images/background-caliber.jpg");
+        background: urL("../../public/images/background-caliber.webp");
     }
 
     .container {

@@ -31,7 +31,7 @@ export default function Me() {
                     <h2 className={styles.subtitle}>Despachante de Armas</h2>
 
                     <Image
-                        src="/images/me.jpg"
+                        src="/images/me.webp"
                         alt="Jackeline Oczust"
                         width={584}
                         height={584}

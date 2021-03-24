@@ -70,7 +70,7 @@ export default function Gallery() {
                             onClick={() => handleClickImage(index + 1)}
                         >
                             <Image
-                                src={`/gallery/${index + 1}.jpg`}
+                                src={`/gallery/${index + 1}.webp`}
                                 alt="Imagem da Galeria"
                                 title="Visualizar imagem"
                                 aria-label="Imagem da galeria, ao clicar a imagem fica com zoom"
