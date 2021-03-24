@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-.title span {
+.titleQuery {
     flex: 1;
     padding-right: .5rem;
 }

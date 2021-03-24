@@ -7,12 +7,12 @@ export default function QueryItem({ query, answer, initialOpen }) {
 
     return (
         <div className={styles.query}>
-            <h3
+            <div
                 className={styles.title}
                 onClick={() => setOpen(!open)}
                 title={query}
             >
-                <span>{query}</span>
+                <h3 className="titleQuery">{query}</h3>
 
                 <Image
                     src={`/svgs/${!open ? 'down-arrow' : 'up-arrow'}.svg`}
@@ -20,7 +20,7 @@ export default function QueryItem({ query, answer, initialOpen }) {
                     height={20}
                     width={20}
                 />
-            </h3>
+            </div>
 
             {open && (
                 <p
