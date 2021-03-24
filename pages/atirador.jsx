@@ -36,9 +36,7 @@ export default function Atirador() {
                         answer: `<b>- 30 armas de uso permitido</b> <br />
                         <b>- 30 armas uso restrito</b> <br />
                         <br />
-                        A autorização para a aquisição está condicionado ao atendimento do prescrito nos art. 9º ao art. 12 da Portaria nº 136-COLOG/2019 e será formalizada pelo despacho da Organização Militar do SisFPC de vinculação do colecionador no requerimento Anexo E da Portaria. <br />
-                        <br />
-                        <a href="http://www.dfpc.eb.mil.br/index.php/aquisicao" target="_blank" style="color: blue" arial-label="Abrir site do dfpc">www.dfpc.eb.mil.br/index.php/aquisicao</a> 
+                        A autorização para a aquisição está condicionado ao atendimento do prescrito nos art. 9º ao art. 12 da Portaria nº 136-COLOG/2019 e será formalizada pelo despacho da Organização Militar do SisFPC de vinculação do colecionador no requerimento Anexo E da Portaria.
                         `,
                     },
                     {
