@@ -76,7 +76,7 @@ export default function Cacador() {
             <Alert />
 
             <ContactCategory
-                text="Adquira seu CR na categoria Caça, permite que você atire com pistolas de 9 mm, .40, .45 e os revólveres 357. <br />
+                text="Adquira seu CR na categoria Caça, permite que você obtenha pistolas com calibre de 9 mm, .40, .45, revólveres 357, entre outros. <br />
                 Fale conosco, tire suas dúvidas que faremos de tudo para que você realize este sonho!"
             />
         </>
