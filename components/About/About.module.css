@@ -34,7 +34,7 @@
     width: 100%;
 }
 
-.cr > img {
+.cr img {
     height: 2.4rem;
 }
 
@@ -159,7 +159,7 @@
         align-self: center;
     }
 
-    .cr > img {
+    .cr img {
         height: 4.5rem;
         margin-left: -12px;
     }

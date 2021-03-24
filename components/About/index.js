@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from './About.module.css'
 
 export default function About() {
@@ -16,18 +17,22 @@ export default function About() {
 
                     <div className={styles.cac}>
                         <div className={styles.cr}>
-                            <img
+                            <Image
                                 src="/svgs/cr.svg"
                                 alt="Certificado de Registro"
+                                width={78}
+                                height={78}
                             />
                         </div>
 
                         <div className={styles.categories}>
                             <Link href="/cacador">
                                 <div className={styles.category} title="Caçador">
-                                    <img
+                                    <Image
                                         src="/svgs/cacador.svg"
                                         alt="Caçador"
+                                        width={64}
+                                        height={65}
                                     />
                                     <h4 className={styles.categoryTitle}>Caçador</h4>
                                 </div>
@@ -35,9 +40,11 @@ export default function About() {
 
                             <Link href="/atirador">
                                 <div className={styles.category} title="Atirador">
-                                    <img
+                                    <Image
                                         src="/svgs/atirador.svg"
                                         alt="Atirador"
+                                        width={65}
+                                        height={65}
                                     />
                                     <h4 className={styles.categoryTitle}>Atirador</h4>
                                 </div>
@@ -45,9 +52,11 @@ export default function About() {
 
                             <Link href="/colecionador">
                                 <div className={styles.category} title="Colecionador">
-                                    <img
+                                    <Image
                                         src="/svgs/colecionador.svg"
                                         alt="Colecionador"
+                                        width={62}
+                                        height={65}
                                     />
                                     <h4 className={styles.categoryTitle}>Colecionador</h4>
                                 </div>

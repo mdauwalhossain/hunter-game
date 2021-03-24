@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 import Link from 'next/link'
 import MenuItem from '../MenuItem'
 import styles from './Header.module.css'
@@ -20,12 +21,15 @@ export default function Header() {
                     </div>
 
                     <Link href="/">
-                        <img
-                            src="/svgs/logo.svg"
-                            alt="Logo Jackeline Oczust"
-                            title="Jackeline Oczust - Despachante de Armas"
-                            className={styles.logo}
-                        />
+                        <a className={styles.logo}>
+                            <Image
+                                src="/svgs/logo.svg"
+                                alt="Logo Jackeline Oczust"
+                                title="Jackeline Oczust - Despachante de Armas"
+                                width={276}
+                                height={72}
+                            />
+                        </a>
                     </Link>
 
                     <nav className={`${styles.menu} ${!menuIsOpen ? styles.menuFechado : ''}`} onClick={() => setMenuIsOpen(false)}>

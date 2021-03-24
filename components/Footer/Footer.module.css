@@ -11,11 +11,11 @@
     gap: 2.5rem 0;
 }
 
-.logo {
+.logo img{
     height: 2.5rem;
 }
 
-.contact a {
+.contact a:not(.logo) {
     display: none;
 }
 
@@ -55,9 +55,11 @@
     }
 
     .logo {
-        height: 4rem;
-        cursor: pointer;
         margin-bottom: 2rem;
+    }
+
+    .logo img{
+        height: 4rem;
     }
 
     .contact a {
@@ -66,9 +68,8 @@
         font-size: .9rem;
     }
 
-    .number img {
-        margin-left: 4px;
-        margin-bottom: -1px;
+    .number span {
+        margin-right: 4px;
     }
 
     .address {

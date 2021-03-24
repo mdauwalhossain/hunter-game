@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from "next/image"
 import styles from './Footer.module.css'
 
 export default function Footer() {
@@ -8,12 +9,15 @@ export default function Footer() {
                 <div className={styles.container}>
                     <div className={styles.contact}>
                         <Link href="/">
-                            <img
-                                src="/svgs/logo.svg"
-                                alt="Logo Jackeline Oczust"
-                                title="Jackeline Oczust - Despachante de Armas"
-                                className={styles.logo}
-                            />
+                            <a className={styles.logo}>
+                                <Image
+                                    src="/svgs/logo.svg"
+                                    alt="Logo Jackeline Oczust"
+                                    title="Jackeline Oczust - Despachante de Armas"
+                                    width={245}
+                                    height={64}
+                                />
+                            </a>
                         </Link>
 
                         <a
@@ -34,11 +38,11 @@ export default function Footer() {
                             arial-label="Entrar em contato pelo whatsapp"
                         >
                             <span>(41) 9 8855-5153</span>
-                            <img
+                            <Image
                                 src="/svgs/whatsapp.svg"
                                 alt="WhatsApp"
-                                width="14"
-                                height="14"
+                                width={14}
+                                height={14}
                             />
                         </a>
                     </div>
@@ -67,10 +71,12 @@ export default function Footer() {
                             target="_blank"
                             arial-label="Entrar em contato pelo whatsapp"
                         >
-                            <img
+                            <Image
                                 src="/svgs/whatsapp.svg"
                                 alt="WhatsApp"
                                 title="Entre em contato pelo WhatsApp"
+                                width={24}
+                                height={24}
                             />
                         </a>
                         <a
@@ -78,10 +84,12 @@ export default function Footer() {
                             target="_blank"
                             arial-label="Entrar em contato pelo Facebook"
                         >
-                            <img
+                            <Image
                                 src="/svgs/facebook.svg"
                                 alt="Facebook"
                                 title="Entre em contato pelo Facebook"
+                                width={24}
+                                height={24}
                             />
                         </a>
                         <a
@@ -89,10 +97,12 @@ export default function Footer() {
                             target="_blank"
                             arial-label="Entrar em contato pelo Instagram"
                         >
-                            <img
+                            <Image
                                 src="/svgs/instagram.svg"
                                 alt="Instagram"
                                 title="Entre em contato pelo Instagram"
+                                width={24}
+                                height={24}
                             />
                         </a>
                     </div>

@@ -51,10 +51,15 @@
     margin: 1rem 0;
     border: none;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn span {
+    margin-right: 6px;
 }
 
 .btn img {
-    margin: 0px 0 -2px 5px;
     filter: brightness(0);
     opacity: 0.8;
 }
