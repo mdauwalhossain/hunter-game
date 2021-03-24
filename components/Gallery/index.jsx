@@ -65,16 +65,19 @@ export default function Gallery() {
 
                 <div className={styles.images}>
                     {range(countImages).map((index) => (
-                        <Image
-                            src={`/gallery/${index + 1}.jpg`}
-                            alt="Imagem da Galeria"
-                            title="Visualizar imagem"
-                            aria-label="Imagem da galeria, ao clicar a imagem fica com zoom"
-                            width={400}
-                            height={400}
+                        <div
                             key={index}
                             onClick={() => handleClickImage(index + 1)}
-                        />
+                        >
+                            <Image
+                                src={`/gallery/${index + 1}.jpg`}
+                                alt="Imagem da Galeria"
+                                title="Visualizar imagem"
+                                aria-label="Imagem da galeria, ao clicar a imagem fica com zoom"
+                                width={400}
+                                height={400}
+                            />
+                        </div>
                     ))}
                 </div>
 
