@@ -28,9 +28,8 @@ export default function Cacador() {
                         <br />
                         A concessão do CR é realizada, de forma descentralizada, pela Organização Militar, integrante do SisFPC, designada pela Região Militar (RM) de acordo com o domicílio do interessado. <br />
                         <br />
-                        O requerimento e a relação de documentos para concessão de CR encontram0se no Anexo B da Portaria nº 150-CELOG, de 5 de dezembro de 2019. <br />
-                        <br />
-                        <a href="http://www.dfpc.eb.mil.br/index.php/registro" target="_blank" style="color: blue" arial-label="Abrir site do dfpc">www.dfpc.eb.mil.br/index.php/registro</a>`,
+                        O requerimento e a relação de documentos para concessão de CR encontram se no Anexo B da Portaria nº 150-CELOG, de 5 de dezembro de 2019.
+                        `,
                     },
                     {
                         query:
