@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="robots" content="index, follow" />
                 <meta name="author" content="Gabriel Oczust" />
-                <meta name="keywords" content="despachante de arma, porte de arma, porte de arma em curitiba, registrar arma, registrar arma em curitiba, registro de arma, registro de arma em curitiba, posse de arma, renovacao de cr, certificado de registro"></meta>
+                <meta name="keywords" content="despachante de arma, despachante arma de fogo, porte de arma, como tirar porte de arma, porte de arma de fogo, porte de arma para cac, registrar arma, posse de arma, renovacao de cr, certificado de registro"></meta>
                 <meta name="description" content="Quer ter sua arma de forma legalizada e não sabe como? Fale Conosco!" />
                 <meta property="og:locale" content="pt_BR" />
                 <meta property="og:title" content="Jackeline Oczust - Despachante de Armas" />
