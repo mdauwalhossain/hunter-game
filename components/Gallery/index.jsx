@@ -1,44 +1,37 @@
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import range from 'lodash/range'
-import ItemsCarousel from 'react-items-carousel'
-import styles from './Gallery.module.css'
+import { useState } from "react";
+import Image from "next/image";
+import range from "lodash/range";
+import ImageFullScreen from "../ImageFullScreen";
+import styles from "./Gallery.module.css";
+
+const countImages = 9;
 
 export default function Gallery() {
-    const [activeItemIndex, setActiveItemIndex] = useState(0)
-    const noOfItems = 10
-    const noOfCards = 3
+    const [isOpenImage, setIsOpenImage] = useState(false);
+    const [imageIndex, setImageIndex] = useState(1);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setActiveItemIndex(prev => (prev + 1) % (noOfItems - noOfCards + 1))
-        }, 2000)
+    function handleClickImage(index) {
+        setIsOpenImage(true);
+        setImageIndex(index);
+    }
 
-        return () => clearInterval(interval)
-    }, [])
-
-    const carouselItems = range(noOfItems).map(index => (
-        <Image
-            src={`/gallery/${index + 1}.jpg`}
-            alt="Imagem da Galeria"
-            width={640}
-            height={640}
-            key={index}
-        />
-    ))
+    function handleCloseImage() {
+        setIsOpenImage(false);
+        setImageIndex(1);
+    }
 
     return (
         <div className={styles.gallery}>
             <div className="container">
-
-                <div className={styles.header}>
+                <header className={styles.header}>
                     <span className={styles.title}>
                         Se inspire, dê uma <br className="mobile-show" />
                         olhada na nossa galeria!
                     </span>
 
                     <a
-                        className={styles.btn} href="https://www.instagram.com/jackeoczust"
+                        className={`${styles.btn} mobile-hide-flex`}
+                        href="https://www.instagram.com/jackeoczust"
                         target="_blank"
                         title="Ver Mais no Instagram"
                         arial-label="Ver mais fotos no Instagram"
@@ -52,16 +45,46 @@ export default function Gallery() {
                             width={12}
                         />
                     </a>
+
+                    <a
+                        className={`${styles.btn} mobile-show-flex`}
+                        href="https://www.instagram.com/jackeoczust"
+                        title="Ver Mais no Instagram"
+                        arial-label="Ver mais fotos no Instagram"
+                    >
+                        <span>Ver Mais</span>
+
+                        <Image
+                            src="/svgs/instagram.svg"
+                            alt="Instagram"
+                            height={12}
+                            width={12}
+                        />
+                    </a>
+                </header>
+
+                <div className={styles.images}>
+                    {range(countImages).map((index) => (
+                        <Image
+                            src={`/gallery/${index + 1}.jpg`}
+                            alt="Imagem da Galeria"
+                            title="Visualizar imagem"
+                            aria-label="Imagem da galeria, ao clicar a imagem fica com zoom"
+                            width={400}
+                            height={400}
+                            key={index}
+                            onClick={() => handleClickImage(index + 1)}
+                        />
+                    ))}
                 </div>
 
-                <ItemsCarousel
-                    gutter={12}
-                    numberOfCards={noOfCards}
-                    activeItemIndex={activeItemIndex}
-                    requestToChangeActive={value => setActiveItemIndex(value)}
-                    children={carouselItems}
+                <ImageFullScreen
+                    countImages={countImages}
+                    imageIndex={imageIndex}
+                    isOpen={isOpenImage}
+                    onCloseRequest={handleCloseImage}
                 />
             </div>
-        </div >
-    )
+        </div>
+    );
 }

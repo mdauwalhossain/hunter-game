@@ -21,7 +21,6 @@
 .btn {
     background: transparent;
     border-radius: 4px;
-    display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
@@ -36,7 +35,13 @@
     color: #dc2743;
 }
 
-@media(min-width: 780px) {
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+@media (min-width: 780px) {
     .header {
         margin-bottom: 3rem;
         margin-top: 1rem;
@@ -62,18 +67,28 @@
     }
 
     .btn:hover {
-        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: linear-gradient(
+            45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%
+        );
         border-color: transparent;
     }
 
     .btn:hover span {
         color: #fff;
-        transition: .3s;
+        transition: 0.3s;
     }
 
     .btn:hover img {
         filter: brightness(0) invert(1);
-        transition: .3s;
+        transition: 0.3s;
     }
-    
+
+    .images img {
+        cursor: pointer;
+    }
 }
