@@ -39,7 +39,7 @@ export default function ImageFullScreen({
                         }}
                     >
                         <Image
-                            src={`/gallery/${index + 1}.jpg`}
+                            src={`/gallery/${index + 1}.webp`}
                             alt="Imagem da Galeria"
                             width={640}
                             height={640}
