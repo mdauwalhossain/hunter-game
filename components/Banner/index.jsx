@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import styles from "./Banner.module.css"
+import Image from "next/image";
+import styles from "./Banner.module.css";
 
 export default function Banner() {
     return (
@@ -23,7 +23,7 @@ export default function Banner() {
                         arial-label="Entrar em contato pelo whatsapp"
                     >
                         <span>Entre em Contato</span>
-                        
+
                         <Image
                             src="/svgs/whatsapp.svg"
                             alt="WhatsApp"

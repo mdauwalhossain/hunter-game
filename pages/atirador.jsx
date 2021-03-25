@@ -1,18 +1,32 @@
-import Head from 'next/head'
-import AboutCategory from "../components/AboutCategory"
-import Queries from "../components/Queries"
-import Alert from "../components/Alert"
-import ContactCategory from "../components/ContactCategory"
+import Head from "next/head";
+import AboutCategory from "../components/AboutCategory";
+import Queries from "../components/Queries";
+import Alert from "../components/Alert";
+import ContactCategory from "../components/ContactCategory";
 
 export default function Atirador() {
     return (
         <>
             <Head>
-                <title>Atirador | Jackeline Oczust - Despachante de Armas</title>
-                <meta name="description" content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!" />
-                <meta property="og:description" content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!" />
-                <meta property="og:url" content="https://www.jackelineoczust.com.br/atirador" />
-                <link rel="canonical" href="https://www.jackelineoczust.com.br/atirador" />
+                <title>
+                    Atirador | Jackeline Oczust - Despachante de Armas
+                </title>
+                <meta
+                    name="description"
+                    content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!"
+                />
+                <meta
+                    property="og:description"
+                    content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!"
+                />
+                <meta
+                    property="og:url"
+                    content="https://www.jackelineoczust.com.br/atirador"
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.jackelineoczust.com.br/atirador"
+                />
             </Head>
 
             <AboutCategory
@@ -25,7 +39,7 @@ export default function Atirador() {
             <Queries
                 data={[
                     {
-                        query: 'O que é necessário para ser um Atirador?',
+                        query: "O que é necessário para ser um Atirador?",
                         answer: `Para o exercício da atividade de caça é necessário obter o Certificado de Registro(CR) concedido pelo Exército. <br />
                         <br />
                         A concessão do CR é realizada, de forma descentralizada, pela Organização Militar, integrante do SisFPC, designada pela Região Militar (RM) de acordo com o domicílio do interessado. <br />
@@ -34,7 +48,8 @@ export default function Atirador() {
                         `,
                     },
                     {
-                        query: 'Quantas armas o Atirador pode ter em seu acervo?',
+                        query:
+                            "Quantas armas o Atirador pode ter em seu acervo?",
                         answer: `<b>- 30 armas de uso permitido</b> <br />
                         <b>- 30 armas uso restrito</b> <br />
                         <br />
@@ -42,7 +57,8 @@ export default function Atirador() {
                         `,
                     },
                     {
-                        query: 'Quantas munições o Atirador Deportivo pode adquirir?',
+                        query:
+                            "Quantas munições o Atirador Deportivo pode adquirir?",
                         answer: `O Atirador Deportivo poderá adquirir, anualmente, para cada arma registrada: <br />
                         <br />
                         <b>Munição de uso permitido: </b> até cinco mil cartuchos ou insumos para essa quantidade. <br />
@@ -54,8 +70,7 @@ export default function Atirador() {
                     {
                         query:
                             "O que é necessário para adquirir munições e insumos?",
-                        answer:
-                            `Apresentação ao fornecedor: <br />
+                        answer: `Apresentação ao fornecedor: <br />
                             <br />
                             - Documento de identificação válido; <br />
                             - CRAF da arma;<br />
@@ -64,8 +79,7 @@ export default function Atirador() {
                     {
                         query:
                             "Quais armas de fogo são proíbidas nesta categoria?",
-                        answer:
-                            `- Arma de fogo de uso proibido<br />
+                        answer: `- Arma de fogo de uso proibido<br />
                             - Arma de fogo automática <br />
                             - Arma de fogo não-portátil`,
                     },
@@ -79,5 +93,5 @@ export default function Atirador() {
                 Fale conosco, tire suas dúvidas que faremos de tudo para que você realize este sonho!"
             />
         </>
-    )
+    );
 }

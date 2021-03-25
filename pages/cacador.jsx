@@ -9,11 +9,26 @@ export default function Cacador() {
         <>
             <Head>
                 <title>Caçador | Jackeline Oczust - Despachante de Armas</title>
-                <meta property="og:title" content="Caçador | Jackeline Oczust - Despachante de Armas" />
-                <meta name="description" content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!" />
-                <meta property="og:description" content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!" />
-                <meta property="og:url" content="https://www.jackelineoczust.com.br/cacador" />
-                <link rel="canonical" href="https://www.jackelineoczust.com.br/cacador" />
+                <meta
+                    property="og:title"
+                    content="Caçador | Jackeline Oczust - Despachante de Armas"
+                />
+                <meta
+                    name="description"
+                    content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!"
+                />
+                <meta
+                    property="og:description"
+                    content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!"
+                />
+                <meta
+                    property="og:url"
+                    content="https://www.jackelineoczust.com.br/cacador"
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.jackelineoczust.com.br/cacador"
+                />
             </Head>
 
             <AboutCategory
@@ -55,8 +70,7 @@ export default function Cacador() {
                     {
                         query:
                             "O que é necessário para adquirir munições e insumos?",
-                        answer:
-                            `Apresentação ao fornecedor: <br />
+                        answer: `Apresentação ao fornecedor: <br />
                             <br />
                             - Documento de identificação válido; <br />
                             - CRAF da arma;<br />
@@ -65,8 +79,7 @@ export default function Cacador() {
                     {
                         query:
                             "Quais armas de fogo são proíbidas nesta categoria?",
-                        answer:
-                            `- Arma de fogo de uso proibido<br />
+                        answer: `- Arma de fogo de uso proibido<br />
                             - Arma de fogo automática <br />
                             - Arma de fogo não-portátil`,
                     },

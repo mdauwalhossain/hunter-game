@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import styles from './AboutCategory.module.css'
+import Image from "next/image";
+import styles from "./AboutCategory.module.css";
 
 export default function AboutCategory({ icon, title, text }) {
     return (
         <section className={styles.about}>
             <div className="container">
                 <div className={styles.container}>
-
                     <div className={styles.icon}>
                         <Image
                             src={`/svgs/${icon}.svg`}
@@ -27,11 +26,12 @@ export default function AboutCategory({ icon, title, text }) {
                     <h2 className={styles.text}>{text}</h2>
 
                     <p className={styles.subtext}>
-                        *Validade do CR é de 10 anos para os registros concedidos ou revalidados após a data da publicação do Decreto 9.846/19
+                        *Validade do CR é de 10 anos para os registros
+                        concedidos ou revalidados após a data da publicação do
+                        Decreto 9.846/19
                     </p>
-
                 </div>
             </div>
         </section>
-    )
+    );
 }

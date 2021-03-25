@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'ByTheWay';
+    font-family: "ByTheWay";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(/fonts/By-the-way.woff2) format('woff2');
+    src: url(/fonts/By-the-way.woff2) format("woff2");
 }
 
 * {
@@ -23,7 +23,7 @@ textarea,
 input,
 textarea::placeholder,
 input::placeholder {
-    font-family: 'Roboto', 'Arial', sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-weight: 300;
 }
 
@@ -73,7 +73,7 @@ textarea {
     display: flex;
 }
 
-@media(min-width: 780px) {
+@media (min-width: 780px) {
     .container {
         max-width: 1280px;
         padding: 0 2rem;

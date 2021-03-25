@@ -1,6 +1,6 @@
 .about {
     background-color: #000;
-    color: #FFF;
+    color: #fff;
     display: flex;
 }
 
@@ -26,7 +26,7 @@
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 50%;
-    background-color: #F0D53B;
+    background-color: #f0d53b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,13 +39,13 @@
 }
 
 .circle strong {
-    font-family: 'ByTheWay';
+    font-family: "ByTheWay";
     font-size: 1.6rem;
-    line-height: .8;
+    line-height: 0.8;
 }
 
 .circle span {
-    font-size: .9rem;
+    font-size: 0.9rem;
     line-height: 1;
     font-weight: 500;
 }
@@ -56,7 +56,7 @@
 }
 
 .title {
-    font-family: 'ByTheWay';
+    font-family: "ByTheWay";
     font-size: 3rem;
     margin: 1rem 0;
 }
@@ -71,11 +71,11 @@
 .subtext {
     font-size: 0.9rem;
     line-height: 1.8;
-    color: #B2B2B2;
+    color: #b2b2b2;
     margin-top: 0.5rem;
 }
 
-@media(min-width: 780px) {
+@media (min-width: 780px) {
     .icon img {
         height: 260px;
     }
@@ -95,7 +95,7 @@
     }
 
     .circle small {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 
     .title {

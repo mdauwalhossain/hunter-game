@@ -1,17 +1,17 @@
 .alert {
-    background-color: #DD4343;
+    background-color: #dd4343;
     padding: 1.5rem 0;
 }
 
 .alert p {
     margin: 0;
-    color: #FFF;
+    color: #fff;
     font-size: 1rem;
     text-align: justify;
     line-height: 1.8;
 }
 
-@media(min-width: 780px) {
+@media (min-width: 780px) {
     .alert {
         padding: 2.5rem 0;
     }

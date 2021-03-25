@@ -1,5 +1,5 @@
-import Contact from "../Contact"
-import styles from "./ContactCategory.module.css"
+import Contact from "../Contact";
+import styles from "./ContactCategory.module.css";
 
 export default function ContactCategory({ text }) {
     return (
@@ -13,13 +13,13 @@ export default function ContactCategory({ text }) {
 
                         <p
                             className={styles.text}
-                            dangerouslySetInnerHTML={{ __html: text }}>
-                        </p>
+                            dangerouslySetInnerHTML={{ __html: text }}
+                        ></p>
                     </div>
 
                     <Contact className={styles.form} />
                 </div>
             </div>
         </section>
-    )
+    );
 }

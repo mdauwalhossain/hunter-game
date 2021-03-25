@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.me>div {
+.me > div {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     text-align: center;
     line-height: 1;
     color: #333333;
-    font-family: 'ByTheWay';
+    font-family: "ByTheWay";
     margin: 0;
 }
 
@@ -34,13 +34,13 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    background-color: #F0D53B;
+    background-color: #f0d53b;
     color: #000;
     z-index: 2;
     text-transform: capitalize;
     font-size: 1rem;
-    font-family: 'ByTheWay';
-    padding: .7rem .7rem;
+    font-family: "ByTheWay";
+    padding: 0.7rem 0.7rem;
     margin: 0;
 }
 
@@ -50,13 +50,13 @@
     margin: 0 auto;
 }
 
-@media(min-width: 780px) {
+@media (min-width: 780px) {
     .me {
         flex-direction: row;
         align-items: center;
     }
 
-    .me>div {
+    .me > div {
         flex: 1;
     }
 

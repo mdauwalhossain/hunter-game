@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import Image from 'next/image'
-import styles from './QueryItem.module.css'
+import { useState } from "react";
+import Image from "next/image";
+import styles from "./QueryItem.module.css";
 
 export default function QueryItem({ query, answer, initialOpen }) {
-    const [open, setOpen] = useState(initialOpen)
+    const [open, setOpen] = useState(initialOpen);
 
     return (
         <div className={styles.query}>
@@ -15,7 +15,7 @@ export default function QueryItem({ query, answer, initialOpen }) {
                 <h3 className="titleQuery">{query}</h3>
 
                 <Image
-                    src={`/svgs/${!open ? 'down-arrow' : 'up-arrow'}.svg`}
+                    src={`/svgs/${!open ? "down-arrow" : "up-arrow"}.svg`}
                     alt="Seta"
                     height={20}
                     width={20}
@@ -31,5 +31,5 @@ export default function QueryItem({ query, answer, initialOpen }) {
 
             <div className={styles.line}></div>
         </div>
-    )
+    );
 }
