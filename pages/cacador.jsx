@@ -12,6 +12,8 @@ export default function Cacador() {
                 <meta property="og:title" content="Caçador | Jackeline Oczust - Despachante de Armas" />
                 <meta name="description" content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!" />
                 <meta property="og:description" content="Quer se tornar um Caçador de forma legalizada e não sabe como? Fale Conosco!" />
+                <meta property="og:url" content="https://www.jackelineoczust.com.br/cacador" />
+                <link rel="canonical" href="https://www.jackelineoczust.com.br/cacador" />
             </Head>
 
             <AboutCategory

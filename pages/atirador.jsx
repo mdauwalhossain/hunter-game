@@ -11,6 +11,8 @@ export default function Atirador() {
                 <title>Atirador | Jackeline Oczust - Despachante de Armas</title>
                 <meta name="description" content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!" />
                 <meta property="og:description" content="Quer se tornar um Atirador de forma legalizada e não sabe como? Fale Conosco!" />
+                <meta property="og:url" content="https://www.jackelineoczust.com.br/atirador" />
+                <link rel="canonical" href="https://www.jackelineoczust.com.br/atirador" />
             </Head>
 
             <AboutCategory

@@ -13,6 +13,8 @@ export default function Colecionador() {
                 </title>
                 <meta name="description" content="Quer se tornar um Colecionador de forma legalizada e não sabe como? Fale Conosco!" />
                 <meta property="og:description" content="Quer se tornar um Colecionador de forma legalizada e não sabe como? Fale Conosco!" />
+                <meta property="og:url" content="https://www.jackelineoczust.com.br/colecionador" />
+                <link rel="canonical" href="https://www.jackelineoczust.com.br/colecionador" />
             </Head>
 
             <AboutCategory
