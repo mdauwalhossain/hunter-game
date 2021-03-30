@@ -76,6 +76,7 @@ export default function Gallery() {
                                 aria-label="Imagem da galeria, ao clicar a imagem fica com zoom"
                                 width={400}
                                 height={400}
+                                layout="intrinsic"
                             />
                         </div>
                     ))}

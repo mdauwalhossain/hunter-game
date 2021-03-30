@@ -15,20 +15,23 @@
 .image {
     position: relative;
     overflow: hidden;
-    border-radius: 0.5rem;
 }
 
 .close {
     position: absolute;
     color: #fff;
     top: 1rem;
-    right: 2rem;
+    right: 1rem;
     font-size: 2rem;
-    font-family: cursive;
+    font-family: monospace;
     line-height: 1;
 }
 
 @media (min-width: 780px) {
+    .image {
+        border-radius: 0.5rem;
+    }
+
     .close {
         cursor: pointer;
         font-size: 3rem;
