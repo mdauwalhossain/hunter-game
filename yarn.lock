@@ -1694,11 +1694,6 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-fullscreen-image@^0.0.3:
-  version "0.0.3"
-  resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/react-fullscreen-image/-/react-fullscreen-image-0.0.3.tgz#c3986e1da0453616afa4d7ba50456b68fd6539c5"
-  integrity sha1-w5huHaBFNhavpNe6UEVraP1lOcU=
-
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
