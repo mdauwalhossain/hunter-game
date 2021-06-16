@@ -4,7 +4,12 @@ const authEmail = process.env.EMAIL
 const authPass = process.env.EMAIL_PASS
 
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: "smtp-mail.outlook.com",
+    secureConnection: false,
+    port: 587,
+    tls: {
+        ciphers: 'SSLv3'
+    },
     auth: {
         user: authEmail,
         pass: authPass
