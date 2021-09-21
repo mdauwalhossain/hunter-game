@@ -35,6 +35,7 @@ export default function Me() {
                         alt="Jackeline Oczust"
                         width={584}
                         height={584}
+                        priority={true}
                     />
                 </div>
             </section>

@@ -1,12 +1,15 @@
 import styles from "./Copyright.module.css";
 
 export default function Copyright() {
+    const year = new Date().getFullYear();
+
     return (
         <section className={styles.copyright}>
             <div className="container">
                 <div className={styles.copyright__content}>
                     <span className={styles.copyright__company}>
-                        @ 2021 | Jackeline Oczust | Todos os Direitos Reservados
+                        @ {year} | Jackeline Oczust | Todos os Direitos
+                        Reservados
                     </span>
 
                     <a

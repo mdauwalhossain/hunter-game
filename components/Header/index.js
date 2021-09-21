@@ -28,6 +28,7 @@ export default function Header() {
                                 title="Jackeline Oczust - Despachante de Armas"
                                 width={276}
                                 height={72}
+                                priority={true}
                             />
                         </a>
                     </Link>

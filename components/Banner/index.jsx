@@ -29,6 +29,7 @@ export default function Banner() {
                             alt="WhatsApp"
                             width={18}
                             height={18}
+                            priority={true}
                         />
                     </a>
 
@@ -46,6 +47,7 @@ export default function Banner() {
                             alt="WhatsApp"
                             width={15}
                             height={15}
+                            priority={true}
                         />
                     </a>
 
