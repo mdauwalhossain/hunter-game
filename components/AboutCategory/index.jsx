@@ -12,6 +12,7 @@ export default function AboutCategory({ icon, title, text }) {
                             alt={title}
                             height={260}
                             width={260}
+                            priority={true}
                         />
 
                         <div className={styles.circle}>
