@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Copyright from '../components/Copyright'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }) {
             <Component {...pageProps} />
 
             <Footer />
+            <Copyright />
         </>
     )
 }
